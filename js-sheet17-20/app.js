@@ -41,24 +41,24 @@
 // qusetion 6
 
 
-// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+ var A = ["cake", "apple pie", "cookie", "chips", "patties"];
 
-// var userInput = prompt("Welcome to ABC Bakery. What do you want to order?") .toLowerCase();
+ var userInput = prompt("Welcome to ABC Bakery. What do you want to order?") .toLowerCase();
 
-// var found = false;
+ var found = false;
 
-// for (var i = 0 ; i< A.length ; i++) {
-//     if (A[i] === userInput) {
-//         found = true;
-//         break;
-//     }
-// }
-// if (found === true) {
-//     alert(userInput + " is available in our bakery ");
+ for (var i = 0 ; i< A.length ; i++) {
+     if (A[i] === userInput) {
+         found = true;
+         break;
+     }
+ }
+ if (found === true) {
+  alert(userInput + " is available in our bakery ");
     
-// }else {
-//     alert( userInput +"is not available in our bakery")
-// }
+}else {
+    alert( userInput +"is not available in our bakery")
+}
 
 
 

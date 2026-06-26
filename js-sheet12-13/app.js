@@ -4,25 +4,25 @@
 // A - Z	65 - 90
 // a - z	97 - 122
 
-//  var input = prompt("Enter a character");
-//  var ascii = input.charCodeAt(0);
+  var input = prompt("Enter a character");
+ var ascii = input.charCodeAt(0);
 
 
-//  if (ascii >= 48 && ascii <= 57) {
-//     console.log("It is a number");
+ if (ascii >= 48 && ascii <= 57) {
+     console.log("It is a number");
     
-//  }
-//  else if (ascii >= 65 && ascii <= 90) {
-//      console.log("it is a uppercase letters");
+ }
+  else if (ascii >= 65 && ascii <= 90) {
+      console.log("it is a uppercase letters");
     
-//  }
-//   else if (ascii >= 97 && ascii <=122)  {
-//    console.log("It is a lowercase letters");
+  }
+   else if (ascii >= 97 && ascii <=122)  {
+   console.log("It is a lowercase letters");
     
-//  } else{
-//     console.log("Invalid number");
+  } else{
+    console.log("Invalid number");
     
-//  }
+  }
   
 // Qusetion 2
 
